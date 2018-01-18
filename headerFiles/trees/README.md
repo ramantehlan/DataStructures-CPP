@@ -4,7 +4,7 @@
 A tree is a non-linear data structure, which is a set of nodes, where one node 
 is root of the tree and all the remaining nodes are arranged in a **hierarchical 
 order** forming sub-tree of the root.
-
+---
 ### TYPES OF TREES
 **Trees are of 6 types.**
 
@@ -16,7 +16,7 @@ order** forming sub-tree of the root.
   4. Binary search Trees
   5. Expression Trees
   6. Tournament Trees
-
+---
 ### BASIC TERMINOLOGY
 
   - Root Node
