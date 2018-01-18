@@ -5,8 +5,8 @@ A tree is a non-linear data structure, which is a set of nodes, where one node
 is root of the tree and all the remaining nodes are arranged in a **hierarchical 
 order** forming sub-tree of the root.
 
-## TYPES OF TREES
-Trees are of 6 types.
+### TYPES OF TREES
+**Trees are of 6 types.**
 
   1. General Trees
   2. Forests
@@ -17,7 +17,7 @@ Trees are of 6 types.
   5. Expression Trees
   6. Tournament Trees
 
-## BASIC TERMINOLOGY
+### BASIC TERMINOLOGY
 
   - Root Node
     `The topmost node in the tree.`
@@ -36,5 +36,3 @@ Trees are of 6 types.
 
   - Descendant node 
     `successor node on any path from the node to a leaf node.`
-
-  - 
