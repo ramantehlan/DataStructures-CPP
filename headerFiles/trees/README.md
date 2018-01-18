@@ -31,4 +31,8 @@ Trees are of 6 types.
   - Path
     > A sequence of nodes to the edges.
 
-  - 
+  - Ancestor node
+    > predecessor node on the path from root to a node.
+
+  - Descendant node 
+    > successor node on any path from the node to a leaf node.
