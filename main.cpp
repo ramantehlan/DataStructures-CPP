@@ -200,6 +200,11 @@ void doAction(string actionName){
             cout << endl;
         }
         
+        //Delete a node 
+        else if(actionName == binarySearchTreeOption[6]){
+            cout << "> Enter the value of node (to delete): ";
+        }
+        
         //Unknown Operation
         else{
             printf("Error: Operation don't exist. \n");
