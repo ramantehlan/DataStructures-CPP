@@ -159,6 +159,7 @@ void doAction(string actionName){
             cout << "\n> How many nodes you wish to add to BST: ";
             cin >> no;
             
+            // Add multiple nodes
             for(int i = 0; i < no; i++){
                 int value;
                 cout << "> " << (i+1) << ") Enter the value of new node: ";
@@ -199,11 +200,15 @@ void doAction(string actionName){
             BST.largestData();
             cout << endl;
         }
-        
         //Delete a node 
         else if(actionName == binarySearchTreeOption[6]){
+            int deleteValue;
             cout << "> Enter the value of node (to delete): ";
+            cin >> deleteValue;
+            
+            BST.deleteNode(deleteValue);
         }
+        
         
         //Unknown Operation
         else{

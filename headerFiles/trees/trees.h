@@ -117,6 +117,11 @@ public:
         }
     }
     
+    //Delete a node 
+    void deleteNode(int value){
+        
+    }
+    
     //To get the root of BST
     node* getRoot(){
         return root;
